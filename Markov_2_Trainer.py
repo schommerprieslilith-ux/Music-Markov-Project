@@ -11,12 +11,12 @@ import json
 #This is where you can import a presaved (or empty) dictionary that can be updated and trained with this code 
 #If you import an empty dictionary, I reccommend typing in the file: dictionary = {"end":{}} 
 #This prevents an error 
-import Music_Markov_2_Test_Dictionary
+import Markov_2_Handel_Dictionary 
 
 def main(): 
     print("The program is running\n")
     #Defining the variable my_dictionary as your imported dictionary 
-    my_dictionary = Music_Markov_2_Test_Dictionary.dictionary
+    my_dictionary = Markov_2_Handel_Dictionary.dictionary
     
     while True:
         #This gives you options for what to do 
